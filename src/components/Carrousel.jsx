@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 export const Carrousel = ({ article }) => {
   const album = article.pictures;
@@ -26,10 +23,16 @@ export const Carrousel = ({ article }) => {
           );
         })}
         <a href={article.websitelink}>
-          <img src="/assets/img/link.png" className="link" />
+          <img
+            src="https://juliendev200.github.io/Myportfolio/img/link.png"
+            className="link"
+          />
         </a>
         <a href={article.githublink}>
-          <img src="/assets/img/github2.png" className="github" />
+          <img
+            src="https://juliendev200.github.io/Myportfolio/img/github2.png"
+            className="github"
+          />
         </a>
         <span onClick={previousSlide} className="arrow_left arrow">
           {" "}

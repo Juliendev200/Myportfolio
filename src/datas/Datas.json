@@ -2,16 +2,16 @@
 	{
 		"id": "c67ab8a7",
 		"title": "Food-ordering website",
-		"cover": "/assets/img/ohmy.png",
+		"cover": "https://juliendev200.github.io/Myportfolio/img/ohmy.png",
 		"pictures": [
-			"/assets/img/ohmy.png",
-			"/assets/img/ohmy2.png",
-			"/assets/img/ohmy3.png"
+			"https://juliendev200.github.io/Myportfolio/img/ohmy.png",
+			"https://juliendev200.github.io/Myportfolio/img/ohmy2.png",
+			"https://juliendev200.github.io/Myportfolio/img/ohmy3.png"
 		],
 		"description": "Site développé mobile first de réservation de repas proposé par les restaurants partenaires.",
 		"host": {
 			"name": "Julien LEFEBVRE",
-			"picture": "/assets/img/JL.jpg"
+			"picture":"https://juliendev200.github.io/Myportfolio/img/JL.jpg"
 		},
 		"rating": "5",
 		"location": "Vienne - 38200",
@@ -31,16 +31,16 @@
 	{
 		"id": "b9123946",
 		"title": "Optimisation du SEO",
-		"cover": "/assets/img/nina2.png",
+		"cover": "https://juliendev200.github.io/Myportfolio/img/nina2.png",
 		"pictures": [
-			"/assets/img/nina.png",
-			"/assets/img/nina2.png",
-			"/assets/img/nina3.png"
+			"https://juliendev200.github.io/Myportfolio/img/nina.png",
+			"https://juliendev200.github.io/Myportfolio/img/nina2.png",
+			"https://juliendev200.github.io/Myportfolio/img/nina3.png"
 		],
 		"description": "Le but de ce projet était d'optimiser le SEO de ce site déjà existant afin d'obtenir le meilleur score LightHouse possible. ",
 		"host": {
 			"name": "Julien LEFEBVRE",
-			"picture": "../../public/assets/img/JL.jpg"
+			"picture":"https://juliendev200.github.io/Myportfolio/img/JL.jpg"
 		},
 		"rating": "4",
 		"location": "Vienne - 38200",

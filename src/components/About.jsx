@@ -1,10 +1,11 @@
 import React from "react";
+import portrait from "/img/JL2.jpg";
 
 export default function About() {
   return (
     <section id="about">
       <div className="picture left">
-        <img src="./public/assets/img/JL2.jpg" alt="portrait JulienLEFEBVRE" />
+        <img src={portrait} alt="portrait JulienLEFEBVRE" />
       </div>
       <div id="about-me">
         <h2 className="about-me__title">A propos de moi</h2>
@@ -26,7 +27,7 @@ export default function About() {
           solution digitale. Je suis dans cette optique à la recherche d'une
           entreprise dans laquelle je pourrai apprendre, m'investir, et réussir
           à atteindre les objectifs en collectif. Ce cursus se fera en
-          alternance a partir de décembre 2025 jusqu'à aout 2027.
+          alternance a partir de Janvier 2025 jusqu'à Aout 2027.
         </p>
       </div>
     </section>
