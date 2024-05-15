@@ -1,0 +1,41 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 3em;
+  max-height: 110px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+}
+#header ul {
+  display: flex;
+  gap: 4em;
+}
+#header ul li {
+  list-style-type: none;
+}
+#header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+#header ul li .nav-active {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 1000px) {
+  #header {
+    font-size: 18px;
+  }
+  #header ul {
+    gap: 2em;
+  }
+}
+@media all and (max-width: 650px) {
+  #header {
+    font-size: 15px;
+    padding: 27px 20px;
+  }
+}

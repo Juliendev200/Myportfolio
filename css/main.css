@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  align-items: center;
+  min-height: calc(100vh - 493px);
+}
+.main-container h2 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
+  padding: 80px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
+  left: 50px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    min-width: 335px;
+    padding: 27px 20px;
+    gap: 19px;
+    min-height: calc(100vh - 372px);
+  }
+}
