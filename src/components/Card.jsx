@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Card = ({ logement }) => {
+const Card = ({ website }) => {
   return (
-    <NavLink to={`/logement/${logement.id}`} className="card">
-      <img src={logement.cover} alt={"image de " + logement.title} />
-      <h3> {logement.title} </h3>
+    <NavLink to={`/website/${website.id}`} className="card">
+      <img src={website.cover} alt={"image de " + website.title} />
+      <h3> {website.title} </h3>
     </NavLink>
   );
 };

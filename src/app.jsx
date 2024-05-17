@@ -35,7 +35,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route index path="/Home" element={<Home />} />
-        <Route path="/logement/:id" element={<Logement />} />
+        <Route path="/website/:id" element={<Logement />} />
         <Route path="/apropos" element={<Apropos />} />
       </Routes>
     </BrowserRouter>

@@ -1,15 +1,14 @@
 import { useParams } from "react-router-dom";
 import Datas from "../datas/Datas.json";
-// import Accordion from "../components/componentelement/Accordion"
-import LogementAccordion from "../components/LogementAccordion";
 import Title from "../components/Title";
 import Carrousel from "../components/Carrousel";
-import Host from "../components/Host";
+import Crafter from "../components/Crafter";
 import Rate from "../components/Rate";
 import Tags from "../components/Tags";
 import Logementerror from "./Logementerror";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import Accordionwrap from "../components/Accordionwrap";
 
 export default function Fichelogement() {
   const { id } = useParams();
@@ -32,14 +31,14 @@ export default function Fichelogement() {
                   <Tags taged={article.tags} />
                 </div>
                 <div className="description2">
-                  <Host
-                    hostname={article.host.name}
-                    hostpicture={article.host.picture}
+                  <Crafter
+                    craftername={article.crafter.name}
+                    crafterpicture={article.crafter.picture}
                   />
                   <Rate starnumber={article.rating} />
                 </div>
               </div>
-              <LogementAccordion article={article} />
+              <Accordionwrap article={article} />
             </div>
           ))}
         </div>

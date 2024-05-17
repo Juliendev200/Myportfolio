@@ -7,8 +7,8 @@ export default function Gallery() {
     <>
       <h2>My portfolio</h2>
       <div className="gallery">
-        {Datas.map((logement, i) => (
-          <Card key={i} logement={logement} />
+        {Datas.map((website, i) => (
+          <Card key={i} website={website} />
         ))}
       </div>
     </>

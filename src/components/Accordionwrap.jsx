@@ -1,6 +1,6 @@
 import Accordion from "./Accordion";
 
-const LogementAccordion = ({ article }) => {
+const Accordionwrap = ({ article }) => {
   const technologies = article.equipments;
   return (
     <div className="logement-accordion">
@@ -15,4 +15,4 @@ const LogementAccordion = ({ article }) => {
   );
 };
 
-export default LogementAccordion;
+export default Accordionwrap;
