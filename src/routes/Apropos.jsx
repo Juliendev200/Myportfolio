@@ -12,7 +12,6 @@ export default function Apropos() {
         <AproposCollapse />
         <Mycard />
       </div>
-
       <Footer />
     </>
   );

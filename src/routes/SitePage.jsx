@@ -5,12 +5,12 @@ import Carrousel from "../components/Carrousel";
 import Crafter from "../components/Crafter";
 import Rate from "../components/Rate";
 import Tags from "../components/Tags";
-import Logementerror from "./Logementerror";
+import IdSiteError from "./IdSiteError";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Accordionwrap from "../components/Accordionwrap";
 
-export default function Fichelogement() {
+export default function SitePage() {
   const { id } = useParams();
   const myarticle = Datas.filter((data) => data.id === `${id}`);
 
@@ -45,5 +45,5 @@ export default function Fichelogement() {
         <Footer />
       </>
     );
-  else return <Logementerror />;
+  else return <IdSiteError />;
 }

@@ -1,13 +1,11 @@
-import { NavLink, useRouteError } from "react-router-dom";
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
-export default function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
-
+export default function IdSiteError() {
   return (
-    <>
+    <div>
       <Navigation />
       <div className="error-page">
         <h1>404</h1>
@@ -17,6 +15,6 @@ export default function ErrorPage() {
         </NavLink>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

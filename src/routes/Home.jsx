@@ -9,7 +9,6 @@ export default function Home() {
       <Navigation />
       <div className="main-container">
         <About />
-
         <Gallery />
       </div>
       <Footer />
