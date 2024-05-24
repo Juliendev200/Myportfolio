@@ -1,88 +1,101 @@
 [	
 	{
-	"id": "b49815912",
-	"title": "Booki.com",
-	"cover": "https://juliendev200.github.io/Myportfolio/img/booki2.webp",
-	"pictures": [
-		"https://juliendev200.github.io/Myportfolio/img/booki2.webp",
-		"https://juliendev200.github.io/Myportfolio/img/booki3.webp"
-	],
-	"description": "Ce projet était une initiation à CSS et à la logique responsive.",
-	"crafter": {
-		"name": "Julien LEFEBVRE",
-		"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
-	},
-	"rating": "4",
-	"location": "Vienne - 38200",
-	"equipments": [
-		"HTML",
-		"CSS",
-		"Figma",
-		"Git"
-	],
-	"tags": [
-		"Responsive",
-		"Desktopnative"
-	],
-	"websitelink": "https://juliendev200.github.io/BookiProject/",
-	"githublink": "https://github.com/Juliendev200/BookiProject"
-	},
-	{
-	"id": "b41964158",
-	"title": "Robbie Lens",
-	"cover": "https://juliendev200.github.io/Myportfolio/img/booki2.webp",
-	"pictures": [
-		"https://juliendev200.github.io/Myportfolio/img/booki2.webp",
-		"https://juliendev200.github.io/Myportfolio/img/booki3.webp"
-	],
-	"description": "Ce projet était une initiation à CSS et à la logique responsive.",
-	"crafter": {
-		"name": "Julien LEFEBVRE",
-		"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
-	},
-	"rating": "4",
-	"location": "Vienne - 38200",
-	"equipments": [
-		"HTML",
-		"CSS",
-		"Figma",
-		"Git"
-	],
-	"tags": [
-		"Responsive",
-		"Desktopnative"
-	],
-	"websitelink": "https://juliendev200.github.io/BookiProject/",
-	"githublink": "https://github.com/Juliendev200/BookiProject"
-	},
-	{
-		"id": "c67ab8a7",
-		"title": "Food-ordering website",
-		"cover": "https://juliendev200.github.io/Myportfolio/img/ohmy.webp",
+		"id": "bfrzfcez",
+		"title": "SophieBluel",
+		"cover": "https://juliendev200.github.io/Myportfolio//img/sophiebluel.webp",
 		"pictures": [
-			"https://juliendev200.github.io/Myportfolio/img/ohmy.webp",
-			"https://juliendev200.github.io/Myportfolio/img/ohmy2.webp",
-			"https://juliendev200.github.io/Myportfolio/img/ohmy3.webp"
+			"https://juliendev200.github.io/Myportfolio//img/sophiebluel.webp",
+			"https://juliendev200.github.io/Myportfolio//img/sophiebluel3.webp",
+			"https://juliendev200.github.io/Myportfolio//img/sophiebluel4.webp",
+			"https://juliendev200.github.io/Myportfolio//img/sophiebluel1.webp",
+			"https://juliendev200.github.io/Myportfolio//img/sophiebluel5.jpg",
+			"https://juliendev200.github.io/Myportfolio//img/sophiebluel2.webp"
 		],
-		"description": "Site développé mobile first de réservation de repas proposé par les restaurants partenaires.",
+		"description": "Initiation à Javascript et son dynamisme légendaire",
 		"crafter": {
 			"name": "Julien LEFEBVRE",
 			"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
 		},
-		"rating": "5",
+		"rating": "4",
 		"location": "Vienne - 38200",
 		"equipments": [
-			"HTML",
-			"CSS / SASS",
-			"FAVicon",
-			"FontAwesome"
+			"JavaScript",
+			"Logique filtre",
+			"sqlite",
+			"Call API Rest", 
+			"If logged in: unlock add project / delete project"
 		],
 		"tags": [
-			"Animations",
-			"Mobile First"
+			"Log in",
+			"API Rest",
+			"Dynamic",
+			"Modale"
 		],
-		"websitelink": "https://juliendev200.github.io/Oh-My-food-/",
-		"githublink": "https://github.com/Juliendev200/Oh-My-food-"
+		"githublink": "https://github.com/Juliendev200/architectsite"
+		},
+	{
+	"id": "b4186886",
+	"title": "ARGENTBANK",
+	"cover": "https://juliendev200.github.io/Myportfolio//img/argentbank.webp",
+	"pictures": [
+		"https://juliendev200.github.io/Myportfolio//img/argentbank.webp",
+		"https://juliendev200.github.io/Myportfolio//img/argentbank1.webp",
+		"https://juliendev200.github.io/Myportfolio//img/argentbank2.webp",
+		"https://juliendev200.github.io/Myportfolio//img/argentbank3.webp"
+	],
+	"description": "Ce projet était l'occasion de s'initier a Redux qu'on utilise en tant que statemanager. J'ai utilisé Axios pour faire les calls API bien que cela n'était pas vraiment nécessaire, c'était aussi l'occasion de découvrir son fonctionnement. Dans ce même objectif de découverte, j'ai aussi utilisé un persistore. Finalement, les tentatives de forçage des URL sont contrés par les SecurityGates.",
+	"crafter": {
+		"name": "Julien LEFEBVRE",
+		"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
+	},
+	"rating": "4",
+	"location": "Vienne - 38200",
+	"equipments": [
+		"JavaScript via React",
+		"Axios",
+		"Redux", 
+		"PersistGate",
+		"SecurityGate",
+		"Call API Rest"
+	],
+	"tags": [
+		"Responsive",
+		"API Rest",
+		"State manager",
+		"Greencode"
+	],
+	"githublink": "https://github.com/Juliendev200/NewArgentBank"
+	},
+	{
+	"id": "b41964158",
+	"title": "724 events",
+	"cover": "https://juliendev200.github.io/Myportfolio//img/724events.webp",
+	"pictures": [
+		"https://juliendev200.github.io/Myportfolio//img/724events.webp",
+		"https://juliendev200.github.io/Myportfolio//img/724events1.webp",
+		"https://juliendev200.github.io/Myportfolio//img/724events2.webp",
+		"https://juliendev200.github.io/Myportfolio//img/724events3.webp"
+	],
+	"description": "Ce projet introduit l'utilisation de tests des différents éléments: du JS, au call API, en passant par le CSS. Objectif du projet: S'approprier la logique d'un site développé par un autre, et le corriger à l'aide de tests mis en place.",
+	"crafter": {
+		"name": "Julien LEFEBVRE",
+		"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
+	},
+	"rating": "4",
+	"location": "Vienne - 38200",
+	"equipments": [
+		"HTML / CSS / SASS",
+		"Javascript",
+		"Yarn test",
+		"Test unitaire, d'intégration, de régression"
+	],
+	"tags": [
+		"Correction d'erreurs",
+		"Utilisation tests",
+		"Carrousel",
+		"Filter gallery"
+	],
+	"githublink": "https://github.com/Juliendev200/724events"
 	},
 	{
 		"id": "b9123946",
@@ -117,5 +130,95 @@
 		],
 		"websitelink": "https://juliendev200.github.io/Referencement/",
 		"githublink": "https://github.com/Juliendev200/Referencement"
-	}
+	},
+	{
+		"id": "cfcngujforw",
+		"title": "Site location immobilière",
+		"cover": "https://juliendev200.github.io/Myportfolio//img/kasa.webp",
+		"pictures": [
+			"https://juliendev200.github.io/Myportfolio//img/kasa.webp",
+			"https://juliendev200.github.io/Myportfolio//img/kasa1.webp",
+			"https://juliendev200.github.io/Myportfolio//img/kasa2.webp"
+		],
+		"description": "Initiation à React + chargement dynamique des logements",
+		"crafter": {
+			"name": "Julien LEFEBVRE",
+			"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
+		},
+		"rating": "5",
+		"location": "Vienne - 38200",
+		"equipments": [
+			"HTML",
+			"CSS / SASS",
+			"React",
+			"Datas.json",
+			"Vite", 
+			"Eslint"
+		],
+		"tags": [
+			"Responsive",
+			"datas .json",
+			"REACT",
+			"Greencode"
+		],
+		"githublink": "https://github.com/Juliendev200/Kasa"
+		}
+	,
+	{
+		"id": "c67ab8a7",
+		"title": "Food-ordering website",
+		"cover": "https://juliendev200.github.io/Myportfolio/img/ohmy3.webp",
+		"pictures": [
+			"https://juliendev200.github.io/Myportfolio/img/ohmy.webp",
+			"https://juliendev200.github.io/Myportfolio/img/ohmy2.webp",
+			"https://juliendev200.github.io/Myportfolio/img/ohmy3.webp"
+		],
+		"description": "Site développé mobile first de réservation de repas proposé par les restaurants partenaires.",
+		"crafter": {
+			"name": "Julien LEFEBVRE",
+			"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
+		},
+		"rating": "5",
+		"location": "Vienne - 38200",
+		"equipments": [
+			"HTML",
+			"CSS / SASS",
+			"FAVicon",
+			"FontAwesome"
+		],
+		"tags": [
+			"Animations",
+			"Mobile First"
+		],
+		"websitelink": "https://juliendev200.github.io/Oh-My-food-/",
+		"githublink": "https://github.com/Juliendev200/Oh-My-food-"
+	},
+	{
+		"id": "b49815912",
+		"title": "Booki.com",
+		"cover": "https://juliendev200.github.io/Myportfolio/img/booki2.webp",
+		"pictures": [
+			"https://juliendev200.github.io/Myportfolio/img/booki2.webp",
+			"https://juliendev200.github.io/Myportfolio/img/booki3.webp"
+		],
+		"description": "Ce projet était une initiation à CSS et à la logique responsive.",
+		"crafter": {
+			"name": "Julien LEFEBVRE",
+			"picture":"https://juliendev200.github.io/Myportfolio/img/JL2.webp"
+		},
+		"rating": "4",
+		"location": "Vienne - 38200",
+		"equipments": [
+			"HTML",
+			"CSS",
+			"Figma",
+			"Git"
+		],
+		"tags": [
+			"Responsive",
+			"Desktopnative"
+		],
+		"websitelink": "https://juliendev200.github.io/BookiProject/",
+		"githublink": "https://github.com/Juliendev200/BookiProject"
+		}
 ]

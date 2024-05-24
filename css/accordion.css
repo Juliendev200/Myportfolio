@@ -1,14 +1,13 @@
 .accordion {
   position: relative;
-  max-width: 1023px;
 }
 .accordion .label {
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: #FF6060;
-  color: #FFFFFF;
+  background: #053f54;
+  color: #ffffff;
   font-size: 1.5em;
   border-radius: 5px;
   height: 52px;
@@ -19,7 +18,7 @@
   position: absolute;
   top: 30%;
   right: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   transform: rotate(-90deg);
   transition: all 0.2s;
 }

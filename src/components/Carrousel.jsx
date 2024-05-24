@@ -22,18 +22,22 @@ export const Carrousel = ({ article }) => {
             />
           );
         })}
-        <a href={article.websitelink}>
-          <img
-            src="https://juliendev200.github.io/Myportfolio/img/link.png"
-            className="link"
-          />
-        </a>
-        <a href={article.githublink}>
-          <img
-            src="https://juliendev200.github.io/Myportfolio/img/github2.png"
-            className="github"
-          />
-        </a>
+        {article.websitelink && (
+          <a href={article.websitelink}>
+            <img
+              src="https://juliendev200.github.io/Myportfolio/img/link.png"
+              className="link"
+            />
+          </a>
+        )}
+        {article.githublink && (
+          <a href={article.githublink}>
+            <img
+              src="https://juliendev200.github.io/Myportfolio/img/github2.png"
+              className="github"
+            />
+          </a>
+        )}
         <span onClick={previousSlide} className="arrow_left arrow">
           {" "}
           &#12296;{" "}

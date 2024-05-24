@@ -23,11 +23,11 @@ export default function About() {
         <p>
           Aujourd'hui je valide un diplome de niveau Bac +2 Intégrateur Web /
           développeur Web chez Openclassroom, et en Septembre je continue cette
-          aventure à l'école d'Epitech a Lyon pour un master en développement de
-          solution digitale. Je suis dans cette optique à la recherche d'une
-          entreprise dans laquelle je pourrai apprendre, m'investir, et réussir
-          à atteindre les objectifs en collectif. Ce cursus se fera en
-          alternance a partir de Janvier 2025 jusqu'à Aout 2027.
+          aventure à l'école d'Epitech a Lyon pour un master MSC pro. Je suis
+          dans cette optique à la recherche d'une entreprise dans laquelle je
+          pourrai apprendre, m'investir, et réussir à atteindre les objectifs en
+          collectif. Ce cursus se fera en alternance a partir de Janvier 2025
+          jusqu'à Aout 2027.
         </p>
       </div>
     </section>

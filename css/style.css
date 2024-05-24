@@ -46,15 +46,15 @@ body {
 .logement .carrousel .link {
   position: absolute;
   width: 40px;
-  top: 12px;
-  right: 12px;
+  top: 15px;
+  right: 112px;
   filter: drop-shadow(0px 0px 5px #555);
 }
 .logement .carrousel .github {
   position: absolute;
   width: 90px;
   top: 12px;
-  right: 62px;
+  right: 12px;
   filter: drop-shadow(0px 0px 5px #555);
 }
 .logement .carrousel .arrow {
@@ -502,7 +502,6 @@ body {
 }
 .accordion {
   position: relative;
-  max-width: 1023px;
 }
 .accordion .label {
   position: relative;
