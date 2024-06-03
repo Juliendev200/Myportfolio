@@ -1,13 +1,14 @@
 .accordion {
   position: relative;
+  width: calc(1 * (100% - 120px));
 }
 .accordion .label {
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: #053f54;
-  color: #ffffff;
+  background: var(--label-color);
+  color: var(--title-color);
   font-size: 1.5em;
   border-radius: 5px;
   height: 52px;
@@ -18,7 +19,7 @@
   position: absolute;
   top: 30%;
   right: 20px;
-  color: #ffffff;
+  color: var(--title-color);
   transform: rotate(-90deg);
   transition: all 0.2s;
 }
@@ -27,10 +28,11 @@
 }
 .accordion .content {
   position: relative;
-  background-color: #f6f6f6;
+  background-color: var(--title-color);
   font-size: 1.1em;
   height: 0;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .active .content {

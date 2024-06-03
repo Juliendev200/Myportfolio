@@ -7,8 +7,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: colors.$black;
-  color: colors.$white;
+  background-color: var(--backgroundshade-color);
+  color: var(--primary-color);
   padding-top: 4em;
   padding-bottom: 2em;
   h4 {

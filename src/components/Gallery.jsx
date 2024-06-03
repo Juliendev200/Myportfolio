@@ -4,13 +4,13 @@ import Card from "./Card";
 
 export default function Gallery() {
   return (
-    <>
+    <section id="myportfolio" className="lilcontainer">
       <h2>My portfolio</h2>
       <div className="gallery">
         {Datas.map((website, i) => (
           <Card key={i} website={website} />
         ))}
       </div>
-    </>
+    </section>
   );
 }

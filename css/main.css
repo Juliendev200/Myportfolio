@@ -1,29 +1,73 @@
+:root {
+  --primary-color: #051c39;
+  --background-color: white;
+  --backgroundshade-color: rgba(246, 246, 246, 0.701);
+  --unused-color: #e3e3e3;
+  --square-color: white;
+  --text-color: white;
+  --content-color: #000000;
+  --title-color: rgba(255, 255, 255, 0.7);
+  --label-color: #051c39;
+  --written-color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme=dark] {
+  --primary-color: rgba(255, 255, 255, 0.7);
+  --background-color: rgba(40, 40, 40, 0.701);
+  --backgroundshade-color: rgba(12, 12, 12, 0.601);
+  --unused-color: rgba(180, 180, 180, 0.35);
+  --square-color: rgba(12, 12, 12, 0.401);
+  --text-color: white;
+  --content-color: rgba(255, 255, 255, 0.7);
+  --title-color: rgba(255, 255, 255, 0.7);
+  --label-color: rgba(12, 12, 12, 0.601);
+  --written-color: #051c39;
+}
+
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
-  padding: 50px 100px;
+  padding: 100px 100px;
   align-items: center;
   min-height: calc(100vh - 493px);
 }
-.main-container h2 {
+
+.lilcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px 0px 0px;
+}
+
+h2 {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   font-size: 65px;
-  padding: 80px 0px 0px 0px;
-  margin: 0px 0px 10px 0px;
-  left: 50px;
+  margin: 0px 0px 0px 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  .main-container {
+    min-width: 335px;
+    padding: 52px 40px;
+    gap: 19px;
+    min-height: calc(100vh - 372px);
+  }
+}
+@media all and (max-width: 650px) {
   .main-container {
     min-width: 335px;
     padding: 27px 20px;

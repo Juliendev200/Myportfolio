@@ -20,7 +20,7 @@ export default function SitePage() {
         <Navigation />
         <div className="main-container">
           {myarticle.map((article, index) => (
-            <div className="logement" key={index}>
+            <div className="website" key={index}>
               <Carrousel article={article} />
               <div className="descriptionwrapper">
                 <div className="description1">
@@ -42,6 +42,7 @@ export default function SitePage() {
             </div>
           ))}
         </div>
+
         <Footer />
       </>
     );

@@ -100,11 +100,11 @@
 	{
 		"id": "b9123946",
 		"title": "Optimisation du SEO",
-		"cover": "https://juliendev200.github.io/Myportfolio/img/nina2.webp",
+		"cover": "https://juliendev200.github.io/Myportfolio/img/nina3.webp",
 		"pictures": [
-			"https://juliendev200.github.io/Myportfolio/img/nina.webp",
+			"https://juliendev200.github.io/Myportfolio/img/nina3.webp",
 			"https://juliendev200.github.io/Myportfolio/img/nina2.webp",
-			"https://juliendev200.github.io/Myportfolio/img/nina3.webp"
+			"https://juliendev200.github.io/Myportfolio/img/nina.webp"
 		],
 		"description": "Le but de ce projet était d'optimiser le SEO de ce site déjà existant afin d'obtenir le meilleur score LightHouse possible. ",
 		"crafter": {
@@ -196,10 +196,10 @@
 	{
 		"id": "b49815912",
 		"title": "Booki.com",
-		"cover": "https://juliendev200.github.io/Myportfolio/img/booki2.webp",
+		"cover": "https://juliendev200.github.io/Myportfolio/img/booki3.webp",
 		"pictures": [
-			"https://juliendev200.github.io/Myportfolio/img/booki2.webp",
-			"https://juliendev200.github.io/Myportfolio/img/booki3.webp"
+			"https://juliendev200.github.io/Myportfolio/img/booki3.webp",
+			"https://juliendev200.github.io/Myportfolio/img/booki2.webp"
 		],
 		"description": "Ce projet était une initiation à CSS et à la logique responsive.",
 		"crafter": {

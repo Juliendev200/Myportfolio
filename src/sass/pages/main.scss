@@ -1,29 +1,76 @@
+@use "../utils/colors.scss";
+
+:root {
+  --primary-color: #{colors.$primary};
+  --background-color: #{colors.$white};
+  --backgroundshade-color: #{colors.$light-grey7};
+  --unused-color: #{colors.$light-unused};
+  --square-color: #{colors.$white};
+  --text-color: #{colors.$white};
+  --content-color: #{colors.$black};
+  --title-color: #{colors.$white7};
+  --label-color: #{colors.$primary};
+  --written-color: #{colors.$white7};
+}
+
+[data-theme="dark"] {
+  --primary-color: #{colors.$white7};
+  --background-color: #{colors.$dark-grey7};
+  --backgroundshade-color: #{colors.$darker-grey6};
+  --unused-color: #{colors.$dark-grey3};
+  --square-color: #{colors.$darker-grey4};
+  --text-color: #{colors.$white};
+  --content-color: #{colors.$white7};
+  --title-color: #{colors.$white7};
+  --label-color: #{colors.$darker-grey6};
+  --written-color: #{colors.$primary};
+}
+
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
-  padding: 50px 100px;
+  padding: 100px 100px;
   align-items: center;
   min-height: calc(100vh - 493px);
-  h2 {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 65px;
-    padding: 80px 0px 0px 0px;
-    margin: 0px 0px 10px 0px;
-    left: 50px;
+}
+
+.lilcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px 0px 0px;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
+  margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 1000px) {
+  .main-container {
+    min-width: 335px;
+    padding: 52px 40px;
+    gap: 19px;
+    min-height: calc(100vh - 372px);
   }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 650px) {
   .main-container {
     min-width: 335px;
     padding: 27px 20px;

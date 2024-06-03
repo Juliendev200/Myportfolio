@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: var(--backgroundshade-color);
+  color: var(--primary-color);
   padding-top: 4em;
   padding-bottom: 2em;
 }

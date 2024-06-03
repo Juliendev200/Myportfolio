@@ -1,14 +1,16 @@
 #about {
   display: flex;
-  background-color: #f6f6f6;
+  background-color: var(--backgroundshade-color);
   padding-inline: 100px;
   padding-block: 100px;
   position: relative;
   border-radius: 25px;
+  color: var(--primary-color);
+  align-items: center;
 }
 #about .picture.left::before {
   content: " ";
-  background-color: #ffffff;
+  background-color: var(--square-color);
   width: 374px;
   height: 329px;
   position: absolute;
@@ -82,13 +84,13 @@
   }
 }
 @media all and (max-width: 650px) {
-  .picture.left::before {
-    height: 150px;
-    width: 0px;
-  }
   #about {
     padding-inline: 2em;
     padding-block: 2em;
+  }
+  #about .picture.left::before {
+    height: 150px;
+    width: 0px;
   }
   .picture {
     width: 80%;

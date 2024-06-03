@@ -1,52 +1,52 @@
 @use "../utils/colors.scss";
 
 .error-page {
-    display: flex;
-    padding: 139px 57px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 139px;
+  display: flex;
+  padding: 139px 57px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 139px;
+  margin: 0;
+
+  h1 {
+    font-size: 20em;
+    font-weight: bold;
+    padding: 0;
     margin: 0;
+    color: var(--primary-color);
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+    color: var(--primary-color);
+  }
+
+  .comebackhome {
+    font-size: 1.1em;
+    text-decoration: underline;
+    color: var(--footer-color);
+  }
+}
+
+@media (max-width: 768px) {
+  .error-page {
+    padding: 113px 57px 113px 57px;
+    gap: 113px;
 
     h1 {
-        font-size: 20em;
-        font-weight: bold;
-        padding: 0;
-        margin: 0;
-        color: colors.$primary
+      font-size: 96px;
     }
 
     h3 {
-        text-align: center;
-        font-size: 2em;
-        font-weight: 300;
-        color: colors.$primary
+      font-size: 18px;
+      min-width: 260px;
     }
 
     .comebackhome {
-        font-size: 1.1em;
-        text-decoration: underline;
-        color: colors.$black
+      font-size: 14px;
     }
-}
-
-@media (max-width:768px) {
-    .error-page {
-        padding: 113px 57px 113px 57px;
-        gap: 113px;
-
-        h1 {
-            font-size: 96px;
-        }
-
-        h3 {
-            font-size: 18px;
-            min-width: 260px;
-        }
-
-        .comebackhome {
-            font-size: 14px;
-        }
-    }
+  }
 }

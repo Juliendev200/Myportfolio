@@ -2,15 +2,17 @@
 
 #about {
   display: flex;
-  background-color: colors.$white2;
+  background-color: var(--backgroundshade-color);
   padding-inline: 100px;
   padding-block: 100px;
   position: relative;
   border-radius: 25px;
+  color: var(--primary-color);
+  align-items: center;
 
   .picture.left::before {
     content: " ";
-    background-color: colors.$white;
+    background-color: var(--square-color);
     width: 374px;
     height: 329px;
     position: absolute;
@@ -96,14 +98,13 @@
 }
 
 @media all and (max-width: 650px) {
-  .picture.left::before {
-    height: 150px;
-    width: 0px;
-  }
-
   #about {
     padding-inline: 2em;
     padding-block: 2em;
+    .picture.left::before {
+      height: 150px;
+      width: 0px;
+    }
   }
 
   .picture {

@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import DarkMode from "./DarkMode";
 
 export default function Navigation() {
   return (
     <div id="header">
-      <h2 id="logo">Julien Lefebvre</h2>
+      <h1 id="logo">Julien Lefebvre</h1>
       <nav>
         <ul>
           <li>
@@ -27,6 +28,7 @@ export default function Navigation() {
           </li>
         </ul>
       </nav>
+      <DarkMode />
     </div>
   );
 }
